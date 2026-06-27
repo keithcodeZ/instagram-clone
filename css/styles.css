@@ -1,5 +1,95 @@
 body {
     margin: 0;
-    background: #13171b;                 /* rounded corners para mas clean */
-    color: #F1F3F5;
+    background: #13171b;
+    color: #0c0f12;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+h1, h2, h3, p, figure {
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3{
+    font-size: 1rem;
+}
+
+p {
+    font-size: .9rem;
+}
+
+/* LAYOUT */
+
+header, main, footer {
+    width: 375px;
+    background: white;
+    margin: 0 auto;
+}
+
+nav, .article-header {
+    padding: 10px;
+    /* margin: 0; */
+}
+
+.buttons {
+    padding-top: 10px;
+}
+
+.buttons, .like-count, .post-details {
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(206, 206, 206);
+
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+.article-header {
+    display: flex;
+    /* padding: 10px 0; */
+}
+/* 
+.post-details{
+    display: flex;
+    gap: 10px;
+} */
+
+.post-username {
+    font-weight: bold;
+}
+
+
+/* IMAGES */
+.logo {
+    height: 50px;
+    /* padding-left: 5px; */
+}
+
+.user-avatar {
+    height: 40px;
+    border-radius: 50%;
+    padding-right: 5px;
+}
+
+.post-image {
+    width: 100%;
+}
+
+.btn {
+    height: 30px;
+    padding-right: 10px;
+    cursor: pointer;
+    transition: filter 0.2s ease;
+}
+
+.like-btn:hover, .like-btn:focus {
+    filter: brightness(0) saturate(100%) invert(16%) sepia(95%) saturate(7404%) hue-rotate(359deg) brightness(97%) contrast(117%);
 }
