@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: rgb(250, 242, 242);
+    background: white;
     color: #0c0f12;
     font-family: "Source Sans 3", sans-serif;
 }
@@ -22,7 +22,7 @@ p {
 
 header, main, footer {
     width: 375px;
-    background: rgb(250, 242, 242);
+    background: white;
     margin: 0 auto;
 }
 
