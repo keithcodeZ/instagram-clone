@@ -21,7 +21,8 @@ p {
 /* LAYOUT */
 
 header, main, footer {
-    width: 375px;
+    width: 100%;
+    max-width: 375px;
     background: white;
     margin: 0 auto;
 }
@@ -56,14 +57,10 @@ footer{
     display: flex;
     /* padding: 10px 0; */
 }
-/* 
-.post-details{
-    display: flex;
-    gap: 10px;
-} */
 
 .post-username {
     font-weight: bold;
+    padding-right: 7px;
 }
 
 
