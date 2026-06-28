@@ -1,4 +1,4 @@
-export const posts = [
+const defaultPosts = [
     {
         name: "Vincent van Gogh",
         username: "vincey1853",
@@ -33,3 +33,7 @@ export const posts = [
         postAlt: "Self-portrait of Joseph Ducreux pointing at the viewer with a confident expression"
     }
 ]
+
+const hasPosts = localStorage.getItem('posts');
+
+export const posts = hasPosts ? JSON.parse(hasPosts) : defaultPosts;
