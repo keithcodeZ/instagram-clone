@@ -1,5 +1,4 @@
 import { posts } from "./data.js";
-import { renderPosts } from "./render.js";
 
 export function eventHandlers(){
    const postContainer = document.getElementById('post-container');
